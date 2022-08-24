@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите трехзначное число: ");
-int SecondDigit (int a) 
+int SecondDigit(int a) 
 {
     a = Math.Abs(a);
     return a / 10 % 10;
